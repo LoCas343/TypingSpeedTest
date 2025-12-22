@@ -6,7 +6,6 @@ import {
   clearChar,
   updateTime,
   updateScore,
-  showResult,
 } from "../view/uiView.js";
 
 let text = "";
@@ -20,8 +19,7 @@ const sound = new Audio("assets/sounds/type.mp3");
 sound.volume = 0.125;
 
 export function startGame() {
-  text = generateWords();
-  renderWords(text);
+  loadNewWords();
 
   index = 0;
   time = 60;
@@ -40,9 +38,17 @@ export function startGame() {
   input.addEventListener("keydown", handleTyping);
 }
 
+function loadNewWords() {
+  text = generateWords(50);
+  renderWords(text);
+  index = 0;
+  setActive(0);
+}
+
 function startTimer() {
   if (started) return;
   started = true;
+
   timer = setInterval(() => {
     time--;
     updateTime(time);
@@ -51,6 +57,8 @@ function startTimer() {
 }
 
 function handleTyping(e) {
+  if (time === 0) return;
+
   sound.currentTime = 0;
   sound.play();
   startTimer();
@@ -76,6 +84,10 @@ function handleTyping(e) {
 
   index++;
   setActive(index);
+
+  if (index >= text.length) {
+    loadNewWords();
+  }
 }
 
 function finishGame() {
@@ -86,15 +98,11 @@ function finishGame() {
   const resultBox = document.getElementById("result");
 
   input.disabled = true;
-
-  // ⬇️ HIDE WORDS BOX
   wordsBox.classList.add("hidden");
 
-  // calculate WPM correctly
   const minutes = (60 - time) / 60 || 1;
   const wpm = Math.round(correctChars / 5 / minutes);
 
-  // ⬇️ SHOW RESULT BOX
   resultBox.classList.remove("hidden");
   document.getElementById("final-score").textContent = correctChars;
   document.getElementById("final-wpm").textContent = wpm;

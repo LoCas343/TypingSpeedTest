@@ -10,7 +10,7 @@ export const words = [
   "architecture","refactor","scalability","async","git","github"
 ];
 
-export function generateWords(count = 50) {
+export function generateWords(count = 40) {
   let result = [];
   for (let i = 0; i < count; i++) {
     result.push(words[Math.floor(Math.random() * words.length)]);

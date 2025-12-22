@@ -29,8 +29,8 @@ body {
 .hidden {
   display: none;
 }
-#result{
-    margin-bottom: 32px;
+#result {
+  margin-bottom: 32px;
 }
 .main-title {
   margin-top: 40px;
@@ -59,7 +59,7 @@ body {
   margin: 24px auto;
   padding: 30px;
   width: 100%;
-  min-height: 240px;
+  min-height: 400px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 14px;
   font-size: 1.4rem;
@@ -187,19 +187,64 @@ footer {
   font-size: 1.1rem;
   margin: 6px 0;
 }
-
-@media (max-width: 600px) {
-  #words {
-    font-size: 1.25rem;
-    line-height: 2.25rem;
-    padding: 22px;
-  }
-
-  #word-input {
-    font-size: 1.055rem;
-  }
-}
 #words,
 #word-input {
   font-family: 'JetBrains Mono', monospace;
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.4rem;
+    margin-top: 28px;
+  }
+
+  .container {
+    padding: 26px;
+    border-radius: 18px;
+  }
+
+  #words {
+    min-height: 550px;
+    font-size: 1.65rem;
+    line-height: 2.9rem;
+    padding: 26px;
+  }
+
+  #word-input {
+    font-size: 1.35rem;
+    padding: 20px;
+  }
+
+  .stats {
+    margin-top: 26px;
+    font-size: 1.25rem;
+  }
+
+  #result {
+    padding: 30px;
+    font-size: 1.25rem;
+  }
+
+  #result h2 {
+    font-size: 1.9rem;
+  }
+
+  #result p {
+    font-size: 1.35rem;
+  }
+
+  #restart {
+    font-size: 1.3rem;
+    padding: 18px;
+  }
+
+  footer {
+    padding: 36px 20px;
+    font-size: 1.25rem;
+  }
+
+  .social a {
+    font-size: 2.1rem;
+    margin: 0 16px;
+  }
 }
