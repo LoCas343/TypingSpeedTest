@@ -85,9 +85,6 @@ typing-speed-test/
 
 WPM = (Correct Characters ÷ 5) ÷ Minutes
 
-yaml
-نسخ الكود
-
 This is the standard typing test formula used across professional platforms.
 
 ---
