@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Typing Speed Test</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1 class="main-title">Typing Speed Test</h1>
+
+    <div class="container">
+      <p class="subtitle">Type as fast as you can in 60 seconds</p>
+
+      <div id="words" class="words-box"></div>
+
+      <input
+        type="text"
+        id="word-input"
+        placeholder="start typing..."
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+      />
+
+      <div class="stats">
+        <div>Time: <span id="time">60</span>s</div>
+        <div>Score: <span id="score">0</span></div>
+      </div>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Time's up!</h2>
+      <p>Score: <strong id="final-score"></strong></p>
+      <p>WPM: <strong id="final-wpm"></strong></p>
+      <button id="restart">Restart</button>
+    </div>
+    <div class="spacer"></div>
+    <footer>
+      <p>Developed by <strong>Nojaid Abdullah Issa</strong></p>
+      <p>All rights reserved ©</p>
+      <div class="social">
+        <a href="https://github.com/Nojaid-Ad" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="mailto:nojaidnojaid@gmail.com" target="_blank"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a href="https://t.me/Nojaid" target="_blank"
+          ><i class="fab fa-telegram"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
