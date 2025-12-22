@@ -4,8 +4,8 @@ export const words = [
   "javascript","simple","clean","modern","smooth",
   "frontend","backend","system","pattern","lecture","software","mobile","android",
   "life","learning","growth","goal","challenge","solution","nojaid",
-  "discipline","creativity","experience","communication",
-  "algorithm","function","variable","object","class","api",
+  "discipline","creativity","experience","communication","status","scaffold","container",
+  "algorithm","function","variable","object","class","api","widget","height","width",
   "database","debugging","testing","performance","security","login","register",
   "architecture","refactor","scalability","async","git","github"
 ];

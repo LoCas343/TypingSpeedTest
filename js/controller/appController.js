@@ -17,7 +17,7 @@ let timer = null;
 let started = false;
 
 const sound = new Audio("assets/sounds/type.mp3");
-sound.volume = 0.25;
+sound.volume = 0.125;
 
 export function startGame() {
   text = generateWords();

@@ -24,7 +24,12 @@
 
     <div class="container">
       <p class="subtitle">Type as fast as you can in 60 seconds</p>
-
+      <div id="result" class="hidden">
+        <h2>Time's up!</h2>
+        <p>Score: <strong id="final-score"></strong></p>
+        <p>WPM: <strong id="final-wpm"></strong></p>
+        <button id="restart">Restart</button>
+      </div>
       <div id="words" class="words-box"></div>
 
       <input
@@ -42,12 +47,7 @@
         <div>Score: <span id="score">0</span></div>
       </div>
     </div>
-    <div id="result" class="hidden">
-      <h2>Time's up!</h2>
-      <p>Score: <strong id="final-score"></strong></p>
-      <p>WPM: <strong id="final-wpm"></strong></p>
-      <button id="restart">Restart</button>
-    </div>
+
     <div class="spacer"></div>
     <footer>
       <p>Developed by <strong>Nojaid Abdullah Issa</strong></p>
