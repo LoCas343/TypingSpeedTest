@@ -1,115 +1,119 @@
-🧠 Typing Speed Test
-A modern Typing Speed Test web application built with Vanilla JavaScript, following a clean MVC architecture.
-The project focuses on smooth UI/UX, real-time feedback, and accurate typing statistics like score and WPM.
+# 🧠 Typing Speed Test
 
-This project is fully static (no database), fast, and perfect for deployment on GitHub Pages.
+A modern **Typing Speed Test** web application built with **Vanilla JavaScript**, following a clean **MVC architecture**.  
+The project focuses on smooth **UI/UX**, **real-time feedback**, and accurate typing statistics like **Score** and **WPM**.
 
-✨ Features
-⏱ 60-second timer (starts on first key press)
+This project is **fully static** (no database), fast, and perfect for deployment on **GitHub Pages**.
 
-⌨️ Real-time typing feedback
+---
 
-✅ Green letters → correct
+## ✨ Features
 
-❌ Red letters → incorrect
+- ⏱ **60-second timer** (starts on first key press)
+- ⌨️ **Real-time typing feedback**
+  - ✅ Green letters → correct  
+  - ❌ Red letters → incorrect
+- 🔄 **Backspace support** (resets letter state correctly)
+- 📊 **Live score tracking**
+- 🚀 **WPM calculation** (Words Per Minute)
+- 🔊 Optional **typing sound effect**
+- 🔁 **Restart** button
+- 🎨 Smooth **animated gradient background**
+- 📱 **Fully responsive** design
+- 🧩 Clean **MVC file structure**
 
-🔄 Backspace correctly resets letter state
+---
 
-📊 Live score tracking
+## 🧱 Architecture (MVC)
 
-🚀 WPM calculation (Words Per Minute)
+This project follows the **Model – View – Controller** pattern:
 
-🔊 Optional typing sound effect
+- **Model** → Handles word generation logic  
+- **View** → Handles DOM updates and UI rendering  
+- **Controller** → Handles game logic and user input  
+- **Main** → Application entry point  
 
-🔁 Restart button
+This structure keeps the code **clean**, **scalable**, and **easy to maintain**.
 
-🎨 Smooth animated gradient background
+---
 
-📱 Fully responsive design
-
-🧩 Clean MVC file structure
-
-🧱 Architecture (MVC)
-This project follows the Model – View – Controller pattern:
-
-Model → Handles word generation logic
-
-View → Handles DOM updates and UI rendering
-
-Controller → Handles game logic and user input
-
-Main → App entry point
-
-This keeps the code clean, scalable, and easy to maintain.
-
-📁 File Structure
+## 📁 File Structure
+```
 typing-speed-test/
 │
 ├── index.html
 │
 ├── assets/
-│   ├── css/
-│   │   └── style.css
-│   │
-│   └── sounds/
-│       └── type.mp3
+│ ├── css/
+│ │ └── style.css
+│ │
+│ └── sounds/
+│ └── type.mp3
 │
 ├── js/
-│   ├── main.js
-│   │
-│   ├── controller/
-│   │   └── appController.js
-│   │
-│   ├── model/
-│   │   └── wordsModel.js
-│   │
-│   └── view/
-│       └── uiView.js
+│ ├── main.js
+│ │
+│ ├── controller/
+│ │ └── appController.js
+│ │
+│ ├── model/
+│ │ └── wordsModel.js
+│ │
+│ └── view/
+│ └── uiView.js
 │
 └── README.md
-🛠 Technologies Used
-HTML5
+```
+---
 
-CSS3
+## 🛠 Technologies Used
 
-Flexbox
+- **HTML5**
+- **CSS3**
+  - Flexbox
+  - Animations
+  - Gradient backgrounds
+- **JavaScript (ES Modules)**
+- **Font Awesome** (icons)
+- **Google Fonts**
+  - Inter
+  - JetBrains Mono
 
-Animations
+---
 
-Gradient backgrounds
+## 📊 How WPM Is Calculated
 
-JavaScript (ES Modules)
-
-Font Awesome (icons)
-
-Google Fonts
-
-Inter
-
-JetBrains Mono
-
-📊 How WPM Is Calculated
 WPM = (Correct Characters ÷ 5) ÷ Minutes
+
+yaml
+نسخ الكود
+
 This is the standard typing test formula used across professional platforms.
 
-🚀 How to Run
-Clone or download the project
+---
 
-Open index.html in your browser
-(or deploy directly to GitHub Pages)
+## 🚀 How to Run
+
+1. Clone or download the project
+2. Open `index.html` in your browser  
+   *(or deploy directly to GitHub Pages)*
 
 No build tools. No dependencies. Just open and type.
 
-👨‍💻 Developer
-Developed by:
-Nojaid Abdullah Issa
+---
 
-🐙 GitHub: Nojaid-Ad
+## 👨‍💻 Developer
 
-✈ Telegram: Nojaid
+**Developed by:**  
+**Nojaid Abdullah Issa**
 
-📧 Email: nojaidnojaid@gmail.com
+- 🐙 GitHub: **Nojaid-Ad**
+- ✈ Telegram: **Nojaid**
+- 📧 Email: **nojaidnojaid@gmail.com**
 
-📜 License
-All rights reserved ©
-This project is for learning, showcasing skills, and portfolio use.
+---
+
+## 📜 License
+
+**All rights reserved ©**  
+This project is for **learning**, **showcasing skills**, and **portfolio use**.
