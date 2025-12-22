@@ -12,7 +12,7 @@ body {
   align-items: center;
   background: linear-gradient(270deg, #020617, #0f172a, #020617);
   background-size: 600% 600%;
-  animation: bgMove 14s ease infinite;
+  animation: bgMove 30s ease-in-out infinite;
 }
 
 @keyframes bgMove {
@@ -163,10 +163,13 @@ footer {
 .social a {
   color: #e5e7eb;
   margin: 0 10px;
-  font-size: 1.4rem;
+  font-size: 1.75rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
-
+.custom-name {
+  color: #38bdf8;
+  font-weight: 700;
+}
 .social a:hover {
   color: #38bdf8;
   transform: translateY(-4px);

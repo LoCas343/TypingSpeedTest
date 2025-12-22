@@ -52,6 +52,9 @@ function startTimer() {
   timer = setInterval(() => {
     time--;
     updateTime(time);
+    if (time <= 10) {
+      document.getElementById("asdf").style.color = "red";
+    }
     if (time === 0) finishGame();
   }, 1000);
 }
