@@ -53,7 +53,7 @@ function startTimer() {
     time--;
     updateTime(time);
     if (time <= 10) {
-      document.getElementById("asdf").style.color = "red";
+      document.getElementById("time").style.color = "red";
     }
     if (time === 0) finishGame();
   }, 1000);
