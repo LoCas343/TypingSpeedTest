@@ -99,6 +99,8 @@ function finishGame() {
   const input = document.getElementById("word-input");
   const wordsBox = document.getElementById("words");
   const resultBox = document.getElementById("result");
+  const scoreEl = document.getElementById("final-score");
+  const wpmEl = document.getElementById("final-wpm");
 
   input.disabled = true;
   wordsBox.classList.add("hidden");
@@ -106,9 +108,28 @@ function finishGame() {
   const minutes = (60 - time) / 60 || 1;
   const wpm = Math.round(correctChars / 5 / minutes);
 
+  scoreEl.textContent = correctChars;
   resultBox.classList.remove("hidden");
-  document.getElementById("final-score").textContent = correctChars;
-  document.getElementById("final-wpm").textContent = wpm;
+
+  let message = "";
+  let color = "";
+
+  if (wpm >= 70) {
+    message = "🔥 Excellent! You're very fast";
+    color = "#22c55e";
+  } else if (wpm >= 40) {
+    message = "👍 Great job! Keep improving";
+    color = "#38bdf8";
+  } else if (wpm >= 20) {
+    message = "🙂 Good start! Practice more";
+    color = "#f59e0b";
+  } else {
+    message = "💪 Keep practicing, you’ll get faster";
+    color = "#ef4444";
+  }
+
+  wpmEl.style.color = color;
+  wpmEl.innerHTML = `<strong>${wpm}</strong> WPM<br><span style="font-size:0.95rem; opacity:0.85">${message}</span>`;
 }
 
 export function restartGame() {
